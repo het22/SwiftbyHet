@@ -1,0 +1,6 @@
+framework module SwiftbyHet {
+  umbrella header "SwiftbyHet-umbrella.h"
+
+  export *
+  module * { export * }
+}

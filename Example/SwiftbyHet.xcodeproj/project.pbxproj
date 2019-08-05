@@ -15,6 +15,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		86603F377796015B6B93BD1D /* Pods_SwiftbyHet_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13A9D926BDE66F5FB77F3A2 /* Pods_SwiftbyHet_Example.framework */; };
 		90AFE3C51FFE993CE285EDF0 /* Pods_SwiftbyHet_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9672C8592BDBD4B5BB7D0B2 /* Pods_SwiftbyHet_Tests.framework */; };
+		CB2CF06722F8055E00A31609 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CF06622F8055E00A31609 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09AB8791CBAFE7F72001914C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		09AB8791CBAFE7F72001914C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		25263398C8FE1CF78303507C /* Pods-SwiftbyHet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftbyHet_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftbyHet_Tests/Pods-SwiftbyHet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftbyHet_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftbyHet_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,12 +41,13 @@
 		607FACE51AFB9204008FA782 /* SwiftbyHet_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftbyHet_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		71D394226DE149D8DEAA4544 /* SwiftbyHet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftbyHet.podspec; path = ../SwiftbyHet.podspec; sourceTree = "<group>"; };
+		71D394226DE149D8DEAA4544 /* SwiftbyHet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftbyHet.podspec; path = ../SwiftbyHet.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8D06E205DF383A22D9317E42 /* Pods-SwiftbyHet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftbyHet_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftbyHet_Example/Pods-SwiftbyHet_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A9672C8592BDBD4B5BB7D0B2 /* Pods_SwiftbyHet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftbyHet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFDCC726B94A6B4083B6599D /* Pods-SwiftbyHet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftbyHet_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftbyHet_Example/Pods-SwiftbyHet_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CB2CF06622F8055E00A31609 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		D13A9D926BDE66F5FB77F3A2 /* Pods_SwiftbyHet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftbyHet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D63878F0BBEC5161503FCF03 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D63878F0BBEC5161503FCF03 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E14B80E96ED8F40461450C34 /* Pods-SwiftbyHet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftbyHet_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftbyHet_Tests/Pods-SwiftbyHet_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,9 +109,10 @@
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				CB2CF06622F8055E00A31609 /* TestView.swift */,
 			);
 			name = "Example for SwiftbyHet";
 			path = SwiftbyHet;
@@ -213,6 +216,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = RG8N8ES43K;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -227,6 +231,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -347,6 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB2CF06722F8055E00A31609 /* TestView.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -494,6 +500,7 @@
 			baseConfigurationReference = AFDCC726B94A6B4083B6599D /* Pods-SwiftbyHet_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RG8N8ES43K;
 				INFOPLIST_FILE = SwiftbyHet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -509,6 +516,7 @@
 			baseConfigurationReference = 8D06E205DF383A22D9317E42 /* Pods-SwiftbyHet_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RG8N8ES43K;
 				INFOPLIST_FILE = SwiftbyHet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

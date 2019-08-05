@@ -1,0 +1,22 @@
+{
+  "name": "SwiftbyHet",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftbyHet.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gocks0922@gmail.com/SwiftbyHet",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gocks0922@gmail.com": "gocks0922@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/gocks0922@gmail.com/SwiftbyHet.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftbyHet/Classes/**/*"
+}
