@@ -152,13 +152,13 @@
 		CB2CF06F22F80F5400A31609 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CF06D22F80F5400A31609 /* UITableView+Extension.swift */; };
 		CB2CF07022F80F5400A31609 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CF06D22F80F5400A31609 /* UITableView+Extension.swift */; };
 		CB2CF07122F80F5400A31609 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CF06D22F80F5400A31609 /* UITableView+Extension.swift */; };
-		CB2CF07322F80F5E00A31609 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CF07222F80F5E00A31609 /* UICollectionView+Extension.swift */; };
-		CB2CF07422F80F5E00A31609 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CF07222F80F5E00A31609 /* UICollectionView+Extension.swift */; };
-		CB2CF07522F80F5E00A31609 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CF07222F80F5E00A31609 /* UICollectionView+Extension.swift */; };
-		CB2CF07622F80F5E00A31609 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CF07222F80F5E00A31609 /* UICollectionView+Extension.swift */; };
 		CB2CF07722F80FFF00A31609 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16B5BFF347C18B99FC2F26B958858FD /* NibLoadable.swift */; };
 		CB2CF07822F8100000A31609 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16B5BFF347C18B99FC2F26B958858FD /* NibLoadable.swift */; };
 		CB2CF07922F8100100A31609 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16B5BFF347C18B99FC2F26B958858FD /* NibLoadable.swift */; };
+		CB2CF07D22F8134F00A31609 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CF07C22F8134F00A31609 /* UICollectionView+Extension.swift */; };
+		CB2CF07E22F8134F00A31609 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CF07C22F8134F00A31609 /* UICollectionView+Extension.swift */; };
+		CB2CF07F22F8134F00A31609 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CF07C22F8134F00A31609 /* UICollectionView+Extension.swift */; };
+		CB2CF08022F8134F00A31609 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CF07C22F8134F00A31609 /* UICollectionView+Extension.swift */; };
 		CECBF2BAB333D983C550E38223A5630F /* QuickConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 486BEA084A74A7D96BBC96B4F7CCF311 /* QuickConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1F6601FD7B12B4DD24F04BB553F0B6D /* BeLessThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3DA6C1E2AA02BC52A2778F485A42DE /* BeLessThan.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		D5C0A232BDC3D3559017D70B9DE5C09F /* World.h in Headers */ = {isa = PBXBuildFile; fileRef = 39007EAC9C06A13F1FC9101C4843B8ED /* World.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -412,7 +412,7 @@
 		CAF3D1AECDF53E3723EF1CB7BEC461CC /* NSString+C99ExtendedIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSString+C99ExtendedIdentifier.swift"; path = "Sources/Quick/NSString+C99ExtendedIdentifier.swift"; sourceTree = "<group>"; };
 		CB2CF06822F80ACD00A31609 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Reusable.swift; path = SwiftbyHet/Classes/Reusable.swift; sourceTree = "<group>"; };
 		CB2CF06D22F80F5400A31609 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UITableView+Extension.swift"; path = "SwiftbyHet/Classes/UITableView+Extension.swift"; sourceTree = "<group>"; };
-		CB2CF07222F80F5E00A31609 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		CB2CF07C22F8134F00A31609 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Extension.swift"; path = "SwiftbyHet/Classes/UICollectionView+Extension.swift"; sourceTree = "<group>"; };
 		CE71E5A28BAA2381EC5AB16ECAAEDF1D /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Sources/Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
 		CEF9309B4EDE81477858A14C1C4EB634 /* SwiftbyHet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftbyHet.xcconfig; sourceTree = "<group>"; };
 		D18C2A53134FEDDD80B6D431CA482157 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
@@ -775,7 +775,7 @@
 				E16B5BFF347C18B99FC2F26B958858FD /* NibLoadable.swift */,
 				CB2CF06822F80ACD00A31609 /* Reusable.swift */,
 				CB2CF06D22F80F5400A31609 /* UITableView+Extension.swift */,
-				CB2CF07222F80F5E00A31609 /* UICollectionView+Extension.swift */,
+				CB2CF07C22F8134F00A31609 /* UICollectionView+Extension.swift */,
 				5C033DDEB08878F6F1F396E6B816F501 /* Pod */,
 				29131DA47242116EC409D14E2D1DA692 /* Support Files */,
 			);
@@ -1154,7 +1154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB2CF06C22F80ACD00A31609 /* Reusable.swift in Sources */,
-				CB2CF07622F80F5E00A31609 /* UICollectionView+Extension.swift in Sources */,
+				CB2CF08022F8134F00A31609 /* UICollectionView+Extension.swift in Sources */,
 				17CD986CBA5AEC65EC99BEF99D4E5078 /* NibLoadable.swift in Sources */,
 				9690F06351582414A86D34DBFB1DFCBD /* SwiftbyHet-dummy.m in Sources */,
 				CB2CF07122F80F5400A31609 /* UITableView+Extension.swift in Sources */,
@@ -1165,8 +1165,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB2CF07422F80F5E00A31609 /* UICollectionView+Extension.swift in Sources */,
 				CB2CF06A22F80ACD00A31609 /* Reusable.swift in Sources */,
+				CB2CF07E22F8134F00A31609 /* UICollectionView+Extension.swift in Sources */,
 				0565F9C472A74DDAF4000EA4C19F0316 /* Pods-SwiftbyHet_Example-dummy.m in Sources */,
 				CB2CF07822F8100000A31609 /* NibLoadable.swift in Sources */,
 				CB2CF06F22F80F5400A31609 /* UITableView+Extension.swift in Sources */,
@@ -1295,13 +1295,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB2CF07322F80F5E00A31609 /* UICollectionView+Extension.swift in Sources */,
 				CB2CF06E22F80F5400A31609 /* UITableView+Extension.swift in Sources */,
 				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
 				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
 				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
 				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
 				CB2CF06922F80ACD00A31609 /* Reusable.swift in Sources */,
+				CB2CF07D22F8134F00A31609 /* UICollectionView+Extension.swift in Sources */,
 				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
 				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
 				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
@@ -1315,8 +1315,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB2CF07522F80F5E00A31609 /* UICollectionView+Extension.swift in Sources */,
 				CB2CF06B22F80ACD00A31609 /* Reusable.swift in Sources */,
+				CB2CF07F22F8134F00A31609 /* UICollectionView+Extension.swift in Sources */,
 				B601C1282CDA21E95CFC901A05FBE8C4 /* Pods-SwiftbyHet_Tests-dummy.m in Sources */,
 				CB2CF07722F80FFF00A31609 /* NibLoadable.swift in Sources */,
 				CB2CF07022F80F5400A31609 /* UITableView+Extension.swift in Sources */,
