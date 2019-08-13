@@ -15,6 +15,8 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		86603F377796015B6B93BD1D /* Pods_SwiftbyHet_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13A9D926BDE66F5FB77F3A2 /* Pods_SwiftbyHet_Example.framework */; };
 		90AFE3C51FFE993CE285EDF0 /* Pods_SwiftbyHet_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9672C8592BDBD4B5BB7D0B2 /* Pods_SwiftbyHet_Tests.framework */; };
+		CB8CDE2B230293D6009CA134 /* SampleNibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8CDE2A230293D6009CA134 /* SampleNibView.swift */; };
+		CB8CDE2D23029594009CA134 /* SampleNibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8CDE2C23029594009CA134 /* SampleNibView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		8D06E205DF383A22D9317E42 /* Pods-SwiftbyHet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftbyHet_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftbyHet_Example/Pods-SwiftbyHet_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A9672C8592BDBD4B5BB7D0B2 /* Pods_SwiftbyHet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftbyHet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFDCC726B94A6B4083B6599D /* Pods-SwiftbyHet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftbyHet_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftbyHet_Example/Pods-SwiftbyHet_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CB8CDE2A230293D6009CA134 /* SampleNibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleNibView.swift; sourceTree = "<group>"; };
+		CB8CDE2C23029594009CA134 /* SampleNibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleNibView.xib; sourceTree = "<group>"; };
 		D13A9D926BDE66F5FB77F3A2 /* Pods_SwiftbyHet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftbyHet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D63878F0BBEC5161503FCF03 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E14B80E96ED8F40461450C34 /* Pods-SwiftbyHet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftbyHet_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftbyHet_Tests/Pods-SwiftbyHet_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				CB8CDE2A230293D6009CA134 /* SampleNibView.swift */,
+				CB8CDE2C23029594009CA134 /* SampleNibView.xib */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -247,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB8CDE2D23029594009CA134 /* SampleNibView.xib in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
@@ -348,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB8CDE2B230293D6009CA134 /* SampleNibView.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

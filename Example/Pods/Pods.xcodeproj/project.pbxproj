@@ -159,6 +159,10 @@
 		CB2CF07E22F8134F00A31609 /* UICollectionView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CF07C22F8134F00A31609 /* UICollectionView+Reusable.swift */; };
 		CB2CF07F22F8134F00A31609 /* UICollectionView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CF07C22F8134F00A31609 /* UICollectionView+Reusable.swift */; };
 		CB2CF08022F8134F00A31609 /* UICollectionView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CF07C22F8134F00A31609 /* UICollectionView+Reusable.swift */; };
+		CB8CDE312302A0AF009CA134 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8CDE302302A0AF009CA134 /* NibLoadableView.swift */; };
+		CB8CDE322302A0AF009CA134 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8CDE302302A0AF009CA134 /* NibLoadableView.swift */; };
+		CB8CDE332302A0AF009CA134 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8CDE302302A0AF009CA134 /* NibLoadableView.swift */; };
+		CB8CDE342302A0AF009CA134 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8CDE302302A0AF009CA134 /* NibLoadableView.swift */; };
 		CBB8C06322FC308600318319 /* UIGestureRecognizer+InitWithClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8C06222FC308500318319 /* UIGestureRecognizer+InitWithClosure.swift */; };
 		CBB8C06422FC308600318319 /* UIGestureRecognizer+InitWithClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8C06222FC308500318319 /* UIGestureRecognizer+InitWithClosure.swift */; };
 		CBB8C06522FC308600318319 /* UIGestureRecognizer+InitWithClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8C06222FC308500318319 /* UIGestureRecognizer+InitWithClosure.swift */; };
@@ -417,6 +421,7 @@
 		CB2CF06822F80ACD00A31609 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Reusable.swift; path = SwiftbyHet/Classes/Reusable.swift; sourceTree = "<group>"; };
 		CB2CF06D22F80F5400A31609 /* UITableView+Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UITableView+Reusable.swift"; path = "SwiftbyHet/Classes/UITableView+Reusable.swift"; sourceTree = "<group>"; };
 		CB2CF07C22F8134F00A31609 /* UICollectionView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Reusable.swift"; path = "SwiftbyHet/Classes/UICollectionView+Reusable.swift"; sourceTree = "<group>"; };
+		CB8CDE302302A0AF009CA134 /* NibLoadableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
 		CBB8C06222FC308500318319 /* UIGestureRecognizer+InitWithClosure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIGestureRecognizer+InitWithClosure.swift"; path = "SwiftbyHet/Classes/UIGestureRecognizer+InitWithClosure.swift"; sourceTree = "<group>"; };
 		CE71E5A28BAA2381EC5AB16ECAAEDF1D /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Sources/Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
 		CEF9309B4EDE81477858A14C1C4EB634 /* SwiftbyHet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftbyHet.xcconfig; sourceTree = "<group>"; };
@@ -777,8 +782,9 @@
 		ADDD6A573A006BB946BDB74442973FCF /* SwiftbyHet */ = {
 			isa = PBXGroup;
 			children = (
-				E16B5BFF347C18B99FC2F26B958858FD /* NibLoadable.swift */,
 				CB2CF06822F80ACD00A31609 /* Reusable.swift */,
+				E16B5BFF347C18B99FC2F26B958858FD /* NibLoadable.swift */,
+				CB8CDE302302A0AF009CA134 /* NibLoadableView.swift */,
 				CB2CF06D22F80F5400A31609 /* UITableView+Reusable.swift */,
 				CB2CF07C22F8134F00A31609 /* UICollectionView+Reusable.swift */,
 				CBB8C06222FC308500318319 /* UIGestureRecognizer+InitWithClosure.swift */,
@@ -1161,6 +1167,7 @@
 			files = (
 				CB2CF06C22F80ACD00A31609 /* Reusable.swift in Sources */,
 				CBB8C06622FC308600318319 /* UIGestureRecognizer+InitWithClosure.swift in Sources */,
+				CB8CDE342302A0AF009CA134 /* NibLoadableView.swift in Sources */,
 				CB2CF08022F8134F00A31609 /* UICollectionView+Reusable.swift in Sources */,
 				17CD986CBA5AEC65EC99BEF99D4E5078 /* NibLoadable.swift in Sources */,
 				9690F06351582414A86D34DBFB1DFCBD /* SwiftbyHet-dummy.m in Sources */,
@@ -1174,6 +1181,7 @@
 			files = (
 				CB2CF06A22F80ACD00A31609 /* Reusable.swift in Sources */,
 				CBB8C06422FC308600318319 /* UIGestureRecognizer+InitWithClosure.swift in Sources */,
+				CB8CDE322302A0AF009CA134 /* NibLoadableView.swift in Sources */,
 				CB2CF07E22F8134F00A31609 /* UICollectionView+Reusable.swift in Sources */,
 				0565F9C472A74DDAF4000EA4C19F0316 /* Pods-SwiftbyHet_Example-dummy.m in Sources */,
 				CB2CF07822F8100000A31609 /* NibLoadable.swift in Sources */,
@@ -1309,6 +1317,7 @@
 				CBB8C06322FC308600318319 /* UIGestureRecognizer+InitWithClosure.swift in Sources */,
 				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
 				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
+				CB8CDE312302A0AF009CA134 /* NibLoadableView.swift in Sources */,
 				CB2CF06922F80ACD00A31609 /* Reusable.swift in Sources */,
 				CB2CF07D22F8134F00A31609 /* UICollectionView+Reusable.swift in Sources */,
 				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
@@ -1326,6 +1335,7 @@
 			files = (
 				CB2CF06B22F80ACD00A31609 /* Reusable.swift in Sources */,
 				CBB8C06522FC308600318319 /* UIGestureRecognizer+InitWithClosure.swift in Sources */,
+				CB8CDE332302A0AF009CA134 /* NibLoadableView.swift in Sources */,
 				CB2CF07F22F8134F00A31609 /* UICollectionView+Reusable.swift in Sources */,
 				B601C1282CDA21E95CFC901A05FBE8C4 /* Pods-SwiftbyHet_Tests-dummy.m in Sources */,
 				CB2CF07722F80FFF00A31609 /* NibLoadable.swift in Sources */,
