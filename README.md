@@ -5,24 +5,49 @@
 [![License](https://img.shields.io/cocoapods/l/SwiftbyHet.svg?style=flat)](https://cocoapods.org/pods/SwiftbyHet)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftbyHet.svg?style=flat)](https://cocoapods.org/pods/SwiftbyHet)
 
-## Example
+**Collection of usable classes, extensions and protocols I use.**
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+
+## Documentation
+
+- [**Reusable Cell**](#reusable-cell)
+
+- [**Nib Loadable View**](#nib-loadable-view)
+
+- [**GestureRecognizer with Closure**](#gesture-recognizer-with-closure)
+
+
+
+### Reusable Cell
+
+
+
+
+
+### Nib Loadable View
+
+
+
+
+
+### Gesture Recognizer with Closure
+
+
+
+
+
+------
+
+
 
 ## Installation
-
-SwiftbyHet is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'SwiftbyHet'
 ```
 
-## Author
 
-gocks0922@gmail.com, gocks0922@gmail.com
 
 ## License
 
