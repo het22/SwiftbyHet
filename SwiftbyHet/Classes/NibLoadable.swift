@@ -7,9 +7,7 @@
 
 import UIKit
 
-public protocol NibLoadable {
-    static var nibName: String { get }
-}
+public protocol NibLoadable {}
 
 public extension NibLoadable where Self: UIView {
     
@@ -23,8 +21,8 @@ public extension NibLoadable where Self: UIView {
     }
     
     func loadViewFromNib() {
-        guard let view = Self.nib.instantiate(withOwner: self, options: nil).first as? UIView else { fatalError("Error loading \(self) from nib") }
-        view.frame = self.bounds
-        addSubview(view)
+        guard let rootView = Self.nib.instantiate(withOwner: self, options: nil).first as? UIView else { fatalError("Error loading \(self) from nib") }
+        rootView.frame = self.bounds
+        addSubview(rootView)
     }
 }
