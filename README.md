@@ -7,7 +7,7 @@
 
 **Collection of usable classes, extensions and protocols I use.**
 
-
+</br>
 
 ## Documentation
 
@@ -17,29 +17,31 @@
 
 - [**GestureRecognizer with Closure**](#gesture-recognizer-with-closure)
 
-
+</br>
 
 ### Reusable Cell
 
+테이블뷰/콜렉션뷰의 셀 등록과 셀 꺼내기 메소드를 단순화한다.
 
-
-
+</br>
 
 ### Nib Loadable View
 
+서브클래싱만으로 xib 파일의 뷰를 사용할 수 있다.
 
-
-
+</br>
 
 ### Gesture Recognizer with Closure
 
+셀렉터가 아닌 클로저로 제스처를 초기화할 수 있다.
 
+Objective-C Runtime Associative Object
 
-
+</br>
 
 ------
 
-
+</br>
 
 ## Installation
 
@@ -47,7 +49,7 @@
 pod 'SwiftbyHet'
 ```
 
-
+</br>
 
 ## License
 
